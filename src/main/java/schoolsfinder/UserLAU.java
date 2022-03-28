@@ -26,8 +26,11 @@ public class UserLAU {
  if (result.next()) {
      user = new User();     
      user.setEmail(email);
-     user.setFirstname(result.getString("firstname"));
-     user.setLastname(result.getString("lastname"));
+     user.setFname(result.getString("fname"));
+     user.setLname(result.getString("lname"));
+     user.setRole(result.getString("role"));
+     user.setUser_id(result.getInt("user_id"));
+     user.setPhone(result.getString("phone"));
  }
 
  connection.close();

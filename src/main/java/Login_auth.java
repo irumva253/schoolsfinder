@@ -40,9 +40,16 @@ public class Login_auth extends HttpServlet {
             String destPage = "auth-login.jsp";
              
             if (user != null) {
-                HttpSession session = request.getSession();
-                session.setAttribute("user", user);
-                destPage = "./dashboard-admin.jsp";
+            	  HttpSession session = request.getSession();
+            	if(user.getRole().equals("Dean")){
+            		session.setAttribute("user", user);
+                    destPage = "./admin-dashboard.jsp";
+            	} else {
+            		session.setAttribute("userInfo", user);
+            	    destPage = "./others-dashboard.jsp";
+            	}
+              
+                
             } else {
                 String message = "Invalid email or password";
                 request.setAttribute("message", message);

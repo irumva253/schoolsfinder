@@ -23,6 +23,7 @@ public class Logout_outh extends HttpServlet {
             throws ServletException, IOException {
         HttpSession session = request.getSession(false);
         if (session != null) {
+        	session.removeAttribute("userInfo");
             session.removeAttribute("user");
              
             RequestDispatcher dispatcher = request.getRequestDispatcher("auth-login.jsp");

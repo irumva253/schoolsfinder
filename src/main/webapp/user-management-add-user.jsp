@@ -20,119 +20,7 @@
      <!-- END -->
         <div id="layoutSidenav">
             <div id="layoutSidenav_nav">
-                <nav class="sidenav shadow-right sidenav-light">
-                    <div class="sidenav-menu">
-                        <div class="nav accordion" id="accordionSidenav">
-                            <!-- Sidenav Menu Heading (Account)-->
-                            <!-- * * Note: * * Visible only on and above the sm breakpoint-->
-                            <div class="sidenav-menu-heading d-sm-none">Account</div>
-                            <!-- Sidenav Link (Alerts)-->
-                            <!-- * * Note: * * Visible only on and above the sm breakpoint-->
-                            <a class="nav-link d-sm-none" href="#!">
-                                <div class="nav-link-icon"><i data-feather="bell"></i></div>
-                                Alerts
-                                <span class="badge bg-warning-soft text-warning ms-auto">4 New!</span>
-                            </a>
-                            <!-- Sidenav Link (Messages)-->
-                            <!-- * * Note: * * Visible only on and above the sm breakpoint-->
-                            <a class="nav-link d-sm-none" href="#!">
-                                <div class="nav-link-icon"><i data-feather="mail"></i></div>
-                                Messages
-                                <span class="badge bg-success-soft text-success ms-auto">2 New!</span>
-                            </a>
-                            <!-- Sidenav Menu Heading (Core)-->
-                            <div class="sidenav-menu-heading">Core</div>
-                            <!-- Sidenav Accordion (Dashboard)-->
-                            <a class="nav-link" href="dashboard-admin.jsp">
-                                <div class="nav-link-icon"><i data-feather="activity"></i></div>
-                                Dashboard
-                            </a>
-                            <!-- Sidenav Heading (Custom)-->
-                            <div class="sidenav-menu-heading">Custom</div>
-                            <!-- Sidenav Accordion (Applications)-->
-                            <a class="nav-link collapsed" href="javascript:void(0);" data-bs-toggle="collapse" data-bs-target="#collapseApps" aria-expanded="false" aria-controls="collapseApps">
-                                <div class="nav-link-icon"><i data-feather="globe"></i></div>
-                                Applications
-                                <div class="sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>
-                            </a>
-                            <div class="collapse" id="collapseApps" data-bs-parent="#accordionSidenav">
-                                <nav class="sidenav-menu-nested nav accordion" id="accordionSidenavAppsMenu">
-                                    <!-- Nested Sidenav Accordion (Apps -> User Management)-->
-                                    <a class="nav-link collapsed" href="javascript:void(0);" data-bs-toggle="collapse" data-bs-target="#appsCollapseUserManagement" aria-expanded="false" aria-controls="appsCollapseUserManagement">
-                                        User Management
-                                        <div class="sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>
-                                    </a>
-                                    <div class="collapse" id="appsCollapseUserManagement" data-bs-parent="#accordionSidenavAppsMenu">
-                                        <nav class="sidenav-menu-nested nav">
-                                            <a class="nav-link" href="user-management-list.jsp">Users List</a>
-                                            <a class="nav-link" href="user-management-edit-user.jsp">Edit User</a>
-                                            <a class="nav-link" href="user-management-add-user.jsp">Add User</a>
-                                            <a class="nav-link" href="user-management-groups-list.jsp">Groups List</a>
-                                            <a class="nav-link" href="user-management-org-details.jsp">Organization Details</a>
-                                        </nav>
-                                    </div>
-                                    <!-- Nested Sidenav Accordion (Apps -> Posts Management)-->
-                                    <a class="nav-link collapsed" href="javascript:void(0);" data-bs-toggle="collapse" data-bs-target="#appsCollapsePostsManagement" aria-expanded="false" aria-controls="appsCollapsePostsManagement">
-                                        Posts Management
-                                        <div class="sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>
-                                    </a>
-                                    <div class="collapse" id="appsCollapsePostsManagement" data-bs-parent="#accordionSidenavAppsMenu">
-                                        <nav class="sidenav-menu-nested nav">
-                                            <a class="nav-link" href="blog-management-posts-list.jsp">Posts List</a>
-                                            <a class="nav-link" href="blog-management-create-post.jsp">Create Post</a>
-                                            <a class="nav-link" href="blog-management-edit-post.jsp">Edit Post</a>
-                                            <a class="nav-link" href="blog-management-posts-admin.jsp">Posts Admin</a>
-                                        </nav>
-                                    </div>
-                                </nav>
-                            </div>
-                            <!-- Sidenav Accordion (Account)-->
-                            <a class="nav-link collapsed" href="javascript:void(0);" data-bs-toggle="collapse" data-bs-target="#collapseFlows" aria-expanded="false" aria-controls="collapseFlows">
-                                <div class="nav-link-icon"><i data-feather="users"></i></div>
-                                Account
-                                <div class="sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>
-                            </a>
-                            <div class="collapse" id="collapseFlows" data-bs-parent="#accordionSidenav">
-                                        <nav class="sidenav-menu-nested nav">
-                                            <a class="nav-link" href="account-profile.jsp">Profile</a>
-                                            <a class="nav-link" href="account-billing.jsp">Billing</a>
-                                            <a class="nav-link" href="account-security.jsp">Security</a>
-                                            <a class="nav-link" href="account-notifications.jsp">Notifications</a>
-                                        </nav>
-                            </div>
-                            <!-- Sidenav Heading -->
-                           <!-- 
-                           
-                           
-                           
-                           
-                           
-                           
-                           
-                           
-                            -->
-                            <!-- Sidenav Heading (Overview)-->
-                            <div class="sidenav-menu-heading">Overview</div>
-                            <!-- Sidenav Link (Charts)-->
-                            <a class="nav-link" href="charts.jsp">
-                                <div class="nav-link-icon"><i data-feather="bar-chart"></i></div>
-                                Charts
-                            </a>
-                            <!-- Sidenav Link (Tables)-->
-                            <a class="nav-link" href="tables.jsp">
-                                <div class="nav-link-icon"><i data-feather="filter"></i></div>
-                                Tables
-                            </a>
-                        </div>
-                    </div>
-                    <!-- Sidenav Footer-->
-                    <div class="sidenav-footer">
-                        <div class="sidenav-footer-content">
-                            <div class="sidenav-footer-subtitle">Logged in as:</div>
-                            <div class="sidenav-footer-title">${user.firstname} ${user.lastname}</div>
-                        </div>
-                    </div>
-                </nav>
+               <%@include file="includes-backend/sidenav.jsp"%>  
             </div>
                <div id="layoutSidenav_content">
                 <main>
@@ -142,8 +30,8 @@
                                 <div class="row align-items-center justify-content-between pt-3">
                                     <div class="col-auto mb-3">
                                         <h1 class="page-header-title">
-                                            <div class="page-header-icon"><i data-feather="user"></i></div>
-                                            Edit User                                         
+                                            <div class="page-header-icon"><i data-feather="user-plus"></i></div>
+                                            Add User                                         
                                         </h1>                                                       
                                     </div>                                   
                                 </div>                               
@@ -160,9 +48,9 @@
                                         <!-- Profile picture image-->
                                         <img class="img-account-profile rounded-circle mb-2" src="assets/img/illustrations/profiles/profile-1.png" alt="" />
                                         <!-- Profile picture help block-->
-                                        <div class="small font-italic text-muted mb-4">Logo</div>
+                                        <div class="small font-italic text-muted mb-4">JPG or PNG no larger than 5 MB</div>
                                         <!-- Profile picture upload button-->
-                                        <p><%=request.getAttribute("Message")%></p>    
+                                        <button class="btn btn-primary" type="button">Upload new image</button>                    
                                     </div>
                                 </div>
                             </div>
@@ -171,64 +59,69 @@
                                 <div class="card mb-4">
                                     <div class="card-header">Account Details</div>
                                     <div class="card-body">
-                                        <form action="UserManagement_addNewUser" method="post" enctype="multipart/form-data">
+                                        <form action="Signup_auth" method="post" enctype="multipart/form-data">
                                             <!-- Form Group (username)-->
                                             <div class="mb-6">
-                                                <label class="small mb-1" for="inputUsepassword">Password (default password is: testSF01)</label>
-                                                <input class="form-control" id="inputUserpass" type="password" placeholder="Enter your password" name="password" />
+                                                <label class="small mb-1" for="inputUserID">UserID (User ID is auto generate)</label>
+                                                <input class="form-control" id="inputUserID" type="password" placeholder="User ID's Auto generate" name="user_id" disabled/>
                                             </div>                                          
                                             <!-- Form Row-->
                                             <div class="row gx-3 mb-3">
                                                 <!-- Form Group (first name)-->
                                                 <div class="col-md-6">
                                                     <label class="small mb-1" for="inputFirstName">First name</label>
-                                                    <input class="form-control" id="inputFirstName" type="text" placeholder="Enter your first name" name="firstname" />
+                                                    <input class="form-control" id="inputFirstName" type="text" placeholder="Enter your first name" name="fname" />
                                                 </div>
                                                 <!-- Form Group (last name)-->
                                                 <div class="col-md-6">
                                                     <label class="small mb-1" for="inputLastName">Last name</label>
-                                                    <input class="form-control" id="inputLastName" type="text" placeholder="Enter your last name" name="lastname" />
+                                                    <input class="form-control" id="inputLastName" type="text" placeholder="Enter your last name" name="lname" />
                                                 </div>
                                             </div>
-                                            <!-- Form Row        -->
-                                            <div class="row gx-3 mb-3">
-                                                <!-- Form Group (organization name)-->
-                                                <div class="col-md-6">
-                                                    <label class="small mb-1" for="inputOrgName">Status</label>
-                                                    <select class="form-control" id="inputOrgName">
-                                                    <option value="admin">Administrator</option>
-                                                    <option value="DIN">Head of School</option>
-                                                    <option value="P_S">Parent/Student</option>
-                                                    </select>
-                                                </div>
-                                                <!-- Form Group (location)-->
-                                                <div class="col-md-6">
-                                                    <label class="small mb-1" for="inputLocation">Location</label>
-                                                    <input class="form-control" id="inputLocation" type="text" placeholder="Enter your location" name="location" />
-                                                </div>
-                                            </div>
-                                            <!-- Form Group (email address)-->
+                                                   <!-- Form Group (email address)-->
                                             <div class="mb-3">
                                                 <label class="small mb-1" for="inputEmailAddress">Email address</label>
                                                 <input class="form-control" id="inputEmailAddress" type="email" placeholder="Enter your email address" name="email" />
+                                            </div>
+                                            
+                                            <!-- Form Row-->
+                                            <div class="row gx-3 mb-3">
+                                                <!-- Form Group (phone number)-->
+                                                <div class="col-md-6">
+                                                    <label class="small mb-1" for="inputPassword">Password (default password is test01)</label>
+                                                    <input class="form-control" id="inputPassword" type="text" placeholder="Enter your password" name="password" />
+                                                </div>
+                                                <div class="col-md-6">
+                                                    <label class="small mb-1" for="inputPassword2">Password (default password is test01)</label>
+                                                    <input class="form-control" id="inputPassword2" type="text" placeholder="Confirm password" name="password2" />
+                                                </div>
+                   
                                             </div>
                                             <!-- Form Row-->
                                             <div class="row gx-3 mb-3">
                                                 <!-- Form Group (phone number)-->
                                                 <div class="col-md-6">
                                                     <label class="small mb-1" for="inputPhone">Phone number</label>
-                                                    <input class="form-control" id="inputPhone" type="tel" placeholder="Enter your phone number" name="phone" />
+                                                    <input class="form-control" id="inputPhone" type="tel" name="phone" placeholder="Enter your phone number"/>
                                                 </div>
-                                                <!-- Form Group (Joining Date)-->
+                                                <!-- Form Group (birthday)-->
                                                 <div class="col-md-6">
-                                                    <label class="small mb-1" for="inputBirthday">Joining Date</label>
-                                                    <input class="form-control" id="inputBirthday" type="date"  placeholder="Enter your birthday" name="joining_date" />
+                                                    <label class="small mb-1" for="inputStatus">Status</label>
+                                                    <select class="form-control" id="inputStatus" name="status">
+                                                    <option value="admin">Admin</option>
+                                                    <option value="Student">Student</option>
+                                                    <option value="Parent">Parent</option>
+                                                    <option value="Dean">School Owner</option>
+                                                    </select>
                                                 </div>
+                                            </div>
                                             <div class="mb-3">
-                                                <label class="small mb-1" for="inputEmailAddress">Profile picture</label>
-                                                <input class="form-control" id="inputEmailAddress" type="file" name="photo" />
+                                                <div class="form-check">
+                                                    <input class="form-check-input" id="rememberPasswordCheck" type="checkbox" name="terms" value="Agreed" required />
+                                                    <label class="form-check-label" for="rememberPasswordCheck">By clicking the bellow button, you have agreed to our <a href="#">Terms & Conditions</a></label>
+                                                </div>
                                             </div>
-                                            </div>
+
                                             <!-- Save changes button-->
                                             <button class="btn btn-primary" type="submit">Save</button>
                                         </form>

@@ -304,7 +304,7 @@
                                         <span>$50.00</span>
                                     </div>
                                     <div class="button text-right">
-                                        <a href="#" class="main-btn">Buy Now</a>
+                                        <a href="#" class="main-btn">Enroll</a>
                                     </div>
                                 </div>
                             </div> <!-- singel publication -->

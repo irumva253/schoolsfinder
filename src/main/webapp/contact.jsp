@@ -241,11 +241,11 @@
                             <h2>Keep in touch</h2>
                         </div> <!-- section title -->
                         <div class="main-form pt-45">
-                            <form id="contact-form" action="#" method="post" data-toggle="validator">
+                            <form id="contact-form" action="Inbox" method="post" data-toggle="validator">
                                 <div class="row">
                                     <div class="col-md-6">
                                         <div class="singel-form form-group">
-                                            <input name="name" type="text" placeholder="Your name" name="names" data-error="Name is required." required="required">
+                                            <input name="name" type="text" placeholder="Your name" name="unames" data-error="Name is required." required="required">
                                             <div class="help-block with-errors"></div>
                                         </div> <!-- singel form -->
                                     </div>
@@ -269,7 +269,7 @@
                                     </div>
                                     <div class="col-md-12">
                                         <div class="singel-form form-group">
-                                            <textarea name="message" placeholder="Message" name="messages" data-error="Please,leave us a message." required="required"></textarea>
+                                            <textarea name="messege" placeholder="Message" name="messages" data-error="Please,leave us a message." required="required"></textarea>
                                             <div class="help-block with-errors"></div>
                                         </div> <!-- singel form -->
                                     </div>
@@ -350,7 +350,7 @@
     <!--====== FOOTER PART START ======-->
     
     <footer id="footer-part">
-        <%@include file="includes-frontend/footer.jsp" %>
+       <%@include file="includes-frontend/footer.jsp" %>
     </footer>
     
     <!--====== FOOTER PART ENDS ======-->
@@ -409,4 +409,3 @@
 </body>
 
 </html>
-    

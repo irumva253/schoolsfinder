@@ -271,14 +271,14 @@
                                     <img src="images/publication/p-1.jpg" alt="Publication">
                                     <div class="add-cart">
                                         <ul>
-                                            <li><a href="#"><i class="fa fa-eye"></i></a></li>
+                                            <li><a href="review-school-profile.jsp"><i class="fa fa-eye"></i></a></li>
                                             <li><a href="#"><i class="fa fa-heart-o"></i></a></li>
                                         </ul>
                                     </div>
                                 </div>
                                 <div class="cont">
                                     <div class="name">
-                                        <a href="shop-singel.html"><h6>Magazine</h6></a>
+                                        <a href="#"><h6>Magazine</h6></a>
                                         <span>$50.00</span>
                                     </div>
                                     <div class="button text-right">
@@ -304,7 +304,7 @@
                                         <span>$50.00</span>
                                     </div>
                                     <div class="button text-right">
-                                        <a href="#" class="main-btn">Buy Now</a>
+                                        <a href="#" class="main-btn">Enroll</a>
                                     </div>
                                 </div>
                             </div> <!-- singel publication -->

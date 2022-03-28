@@ -31,19 +31,19 @@
                             <div class="col-lg-5">
                                 <!-- Basic login form-->
                                 <div class="card shadow-lg border-0 rounded-lg mt-5">
-                                    <div class="card-header justify-content-center"><h4 class="fw-light my-1">WebMaster Login</h4></div>
+                                    <div class="card-header justify-content-center"><h4 class="fw-light my-1">Login</h4></div>
                                     <div class="card-body">
                                         <!-- Login form-->
                                         <form action="Login_auth" method="post">
                                             <!-- Form Group (email address)-->
                                             <div class="mb-3">
                                                 <label class="small mb-1" for="inputEmailAddress">Email</label>
-                                                <input class="form-control" id="inputEmailAddress" type="email" name="email" placeholder="Enter email address" />
+                                                <input class="form-control" id="inputEmailAddress" type="email" name="email" placeholder="Enter email address"  required/>
                                             </div>
                                             <!-- Form Group (password)-->
                                             <div class="mb-3">
                                                 <label class="small mb-1" for="inputPassword">Password</label>
-                                                <input class="form-control" id="inputPassword" type="password" name="password" placeholder="Enter password" />
+                                                <input class="form-control" id="inputPassword" type="password" name="password" placeholder="Enter password" required />
                                             </div>
                                             <!-- Form Group (remember password checkbox)-->
                                             <div class="mb-3">
@@ -54,14 +54,14 @@
                                             </div>
                                             <!-- Form Group (login box)-->
                                             <div class="d-flex align-items-center justify-content-between mt-4 mb-0">
-                                                <a class="small" href="auth-password-basic.html">Forgot Password?</a>
+                                                <a class="small" href="auth-password-recovery.jsp">Forgot Password?</a>
                                                 <button type="submit" class="btn btn-primary">Login</button>
                                             </div>
                                         </form>
                                     </div>
                                     <div class="card-footer text-center">      
                                           <p> ${message}</p>
-                                        <div class="small"><a href="auth-signup.html">Need an account? Sign up!</a></div>
+                                        <div class="small"><a href="auth-signup.jsp">Need an account? Sign up!</a></div>
                                     </div>
                                 </div>
                             </div>

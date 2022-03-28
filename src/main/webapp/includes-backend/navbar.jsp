@@ -1,8 +1,10 @@
       
-      <% response.setHeader("cache-control", "no-cache,no-store,must-revalidate");
+      <% 
+      response.setHeader("cache-control", "no-cache,no-store,must-revalidate");
       response.setHeader("progma","no-cache");
       response.setHeader("Expires","0");
-      if(session.getAttribute("user")==null){
+      if(session.getAttribute("user")==null)
+      {
     	  response.sendRedirect("auth-login.jsp");
       }
       %>
@@ -14,7 +16,7 @@
             <!-- * * Tip * * You can use text or an image for your navbar brand.-->
             <!-- * * * * * * When using an image, we recommend the SVG format.-->
             <!-- * * * * * * Dimensions: Maximum height: 32px, maximum width: 240px-->
-            <a class="navbar-brand pe-3 ps-4 ps-lg-2" href="dashboard-admin.jsp">Schools Finder</a>
+            <a class="navbar-brand pe-3 ps-4 ps-lg-2" href="dashboard-master.jsp">Schools Finder</a>
             <!-- Navbar Search Input-->
             <!-- * * Note: * * Visible only on and above the lg breakpoint-->
             <form class="form-inline me-auto d-none d-lg-block me-3">
@@ -134,7 +136,7 @@
                         <h6 class="dropdown-header d-flex align-items-center">
                             <img class="dropdown-user-img" src="assets/img/illustrations/profiles/profile-1.png" />
                             <div class="dropdown-user-details">
-                                <div class="dropdown-user-details-name">${user.firstname} ${user.lastname}</div>
+                                <div class="dropdown-user-details-name">${user.fname} ${user.lname}</div>
                                 <div class="dropdown-user-details-email">${user.email}</div>
                             </div>
                         </h6>
